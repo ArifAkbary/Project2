@@ -1,0 +1,152 @@
+OOPS :
+1:Object;
+2:Class;
+3:inheritance;
+4:polymorphism;
+5:abstraction;
+6:encapsulation;
+
+We know what is class  and what is object for example car is class and toyota is object
+human is class ahmad is object maryam is object of human
+
+method:is a block of code that express the behaviours of a class , we can archive method in two type in java
+1:overloading 2:over ridding;
+method contains details which called attributed and behaviours which is action .
+
+we can create our method by name of the method open and close () and open and close {}
+if we do have some data type inside of () it is called arguments method if we don have any things like empty it is optional
+is called non argument method .
+method can be return type and can be un return type which is called void ;
+
+varibles :
+we have there kind of variable in java
+1:instance variables
+2:local variables ;
+3:static variable
+
+instance variable are those variable which is inside of class but out side of block of code method or constructor
+local variable are those variable which are inside of class and also inside of block of code method or constructor
+static variables  came with key word static make our variable stable and static one action
+
+access modifiers and non access modifiers  in  java
+we use access modifier to our object method and in our class to make access for others some method must be private and protected
+in order to be access
+we have 4 kind of these access modifiers
+1:public ;
+2:private;
+3:protected ;
+4:default;
+
+public is work in all of our project
+private is just work and access in our class that we are working on
+protected is work and access in same package class and sub class that we are working on
+defult is crate by compiler if we don't have any of three modifiers
+
+constructor is also like method with a little bite different , is also a block of code which initialize  the behaviour  of a class
+and it create automatically  by compiler  , when we crate or object
+construct name must be the same name of  a class
+constructor dons not have any return type even void
+we have two kind of constructor non agreements constructor and parametrize constructor
+
+we can create our constructor by name of the class and name of constructor open and close ()
+if we do have any data type inside of () it is parameterize constructor othe wise it is non arguments constructor
+
+
+Inheritance :
+inheritance is a machnism which transfer the behaviours and method which created in parents class to child class with
+extend key word while when we create the child class
+we have four kind of inheritance in java
+1:single inheritance;
+2:artarchucl inheritance;
+3:multilevel inheritance;
+4:multiple  inheritance
+1 class A {} calls b extand class A{}
+2 class A{}  class b extand class A {} class c extand class A{}
+3: class A{}  class b extand A {}  classs c extand b    {}   class e extand  c{}
+4: class A{}   CLASS B{}    CLASS C EXTAND A /B
+
+Super key reffer to immediate behaviors and method of parent class to call for child class
+
+
+over loading and over ridding
+
+when we have same name and different parameters method in our class we can over load this method easy in java
+when we have same name and same parameters method in-our class we can  over riding this kind of method ;
+
+when can do overloading by there type
+changing the data type of parameters
+changing the sequence or order of data type
+changing of the data type to different data type
+
+method with the final key
+and main method can not be over riding in or class
+if somethings is not inherited we can not do over ridding
+
+Polymorphism
+polymorphism it came from two word ploy it means multi and morphism  means form which one object can be in different form
+polymorphism achive  in two part is called static polymorphism and dynamic polymorphism
+what is polymorphism
+polymorphism is the ability of a method to behave differently
+depending upon object or parameters that we pass to a method.
+
+how can we create polymorphism
+1->>>> first make sure we have over load or over ridd our method
+2>>>>>create a relationships between parents class and child class
+3>>>>> by help of loop and array make our polymorphism and call them all the method that we do have in child and parent class
+
+Abstraction:
+is also  pillar and the 5th  number of OOPS;
+it hide the implementation details and show us just the functionality  details for example sending sms or working on computer
+or play a game in our play station
+
+is also we can call this a blue print and map for our class to get easy coding more flexible and readability  coding in our
+class we do use and need all 4 type of OOPS and abstraction also
+
+how can we achive  abstraction
+we can achive  by two type
+1: abstraction class
+2: interface
+
+1: abstract class that all the class that we all woking is supe is call abstract and we do have that undr order of this
+class is concrete class
+example we do have a account number with WellsFARGOD
+well fargo account is abstract ,chickening ,saving  ,debt  card  visas card all is concrete class
+
+if there is class to class that is call inherited which we can extend
+if there is class to interface is called interface implemented
+if there is interface to interface is called extend it too
+
+
+ Encapsulation:
+ Encapsulation is one of the four fundamental OOP concepts.
+
+ as clear the name of this it is like capsols that contains inside all nessery information that is usefull for or class
+  Encapsulation in Java is a mechanism for wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+
+or getting together of all state and behivors in single unit or in new container is called encapsulation;
+
+to create a class with encapsulation we must make highest access to our varible which is private like height security
+and now we can wrape or data
+and then provide setter and getter method to our varibles
+when can click right and make our setter and getter
+
+we can type or block of code and if statements or other void that we want to return in getter and we can call the same name
+of the method on main method by setter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
